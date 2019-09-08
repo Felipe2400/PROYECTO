@@ -1,18 +1,57 @@
 <!DOCTYPE html>
 
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
-</head>
+<html lang="es">
 
-<body>
+	<head>
+		<meta charset="UTF-8">
+		<title>Popeye's Barbershop</title>
+		<link rel="stylesheet" type="text/css" href="responsive.css">
+		<link rel="stylesheet" href="fonts.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+    
+	<body>
+    <div class="contenedor">
 
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
+		<header class="header">
+			<div class="container logo-nav-container">
+				<a href="#">
+						<img id="logo" src="css/img/logo.png" alt="logo">
+				</a>
+				
+				<a href="#" class="e-l"><span class="menu-icon"><i class="icon-list2"> </i></span></a>
 
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p>Welcome to your first GitHub Pages website!</p>
 
-</body>
+				<nav class="navigation">
+					<ul>
+						<div class="bk-ingreso">
+							<a href="#"><p class="bk">BOOKING </p></a>
+							<a href="#"><p class="bk">INGRESAR </p></a>
+						</div>
+						<li><a href="#"><span class="ctran"><i class="icon-home"> </i></span> Nosotros </a></li>
+
+						<li><a href="#"><span class="ctran"><i class="icon-hipster2"> </i></span> Barberos </a></li>
+
+						<li><a href="#"><span class="ctran"><i class="icon-scissors"> </i></span> Servicios </a></li>
+
+						<li><a href="#"><span class="ctran"><i class="icon-location2"> </i></span> Ubicacion </a></li>					
+					</ul>
+				</nav>		
+			</div>
+		</header>	
+
+		<footer class="footer">
+			<div class="container">
+				<p>Siguenos en nuestras redes</p>
+				<a href="#"><span class="ctran"><i class="icon-facebook2"> </i></span></a>
+				<a href="#"><span class="ctran"><i class="icon-twitter"> </i></span></a>
+				<a href="#"><span class="ctran"><i class="icon-instagram"> </i></span></a>
+			</div>
+		</footer class="footer">
+	</div>
+		<script src="http://code.jquery.com/jquery-3.4.1.js"></script>
+		<script src="scripts.js"></script>
+
+	</body>
+
 </html>

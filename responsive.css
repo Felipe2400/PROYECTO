@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+.header{
+    background: #202020;
+    color: aliceblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 20px solid #717171;
+}
+.header a{
+    color: aliceblue;
+    text-decoration: none;
+    list-style: none;
+}
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bk-ingreso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#logo{
+    transition: all 0.20s linear;
+    border-radius: 5px;
+}
+#logo:hover{
+    background: #4e4a4a;
+}
+.navigation ul {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+
+}
+.navigation ul li {
+    display: inline-block;
+}
+.navigation ul li a{
+    display: block;
+    padding: 10px;
+    transition: all 0.30s linear;
+    border-radius: 5px;
+}
+.navigation ul li a:hover{
+    background: #4e4a4a;
+    color:aliceblue;
+}
+.bk{
+    padding: 10px;
+    transition: all 0.30s linear;
+    border-radius: 5px; 
+    font-size: 25px;
+}
+.bk:hover{
+    background: #4e4a4a;
+    color: aliceblue;
+    
+}
+.bk1{
+    padding: 10px;
+    transition: all 0.30s linear;
+    border-radius: 5px; 
+    font-size: 25px;
+}
+.bk1:hover{
+    background: #4e4a4a;
+    color: aliceblue;
+    
+}
+footer{
+    background: #202020;
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 0%;
+    width: 100%;
+    height: auto;
+}
+footer p{
+    padding: 10px;
+    font-size: 20px;
+}
+footer a{
+    padding: 20px;
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 40px;
+}
+#logo{
+    width: 250px;
+    height: auto;
+}
+.menu-icon{
+    display: none;
+}
+.e-l{
+    font-size: 30px;
+}
+@media screen and (max-width:860px){
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+    .navigation {
+        width: 100%;
+    }
+    .navigation ul {
+        display: none;
+    }
+    .navigation ul.show {
+        display: block;
+    }
+    .navigation ul li{
+        display: block;
+    }
+   
+}
+
+@media screen and (max-width:500px){
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+
+    }
+    .navigation {
+        width: 100%;
+    }
+    .navigation ul {
+        display: none;
+    }
+    .navigation ul.show {
+        display: block;
+    }
+    .navigation ul li{
+        display: block;
+    }
+    
+    .contenedor, .main, {
+        width: 100%;
+        height: 100%;
+    }
+    .main{
+        padding-top:19rem;
+    }
+}
